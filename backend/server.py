@@ -1,0 +1,3 @@
+import pyrebase
+
+print('Testing...')

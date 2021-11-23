@@ -1,0 +1,1 @@
+This is a project just to know how to deploy an app from start to finish on the playstore.

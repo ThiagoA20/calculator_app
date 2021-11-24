@@ -82,8 +82,10 @@ data = {'age': 40, 'employed': True, 'name': "Thiago", 'address': 'Montreal'}
 # Delete
 # db.child("people").child("Thiago").remove()
 
-people = db.child("people").get()
+# people = db.child("people").get()
 
-for people in people.each():
-    if people.val()['name'] == "Thiago":
-        db.child("people").child(people.key()).child("age").remove()
+# for people in people.each():
+    # if people.val()['name'] == "Thiago":
+        # db.child("people").child(people.key()).child("age").remove()
+
+# Read
